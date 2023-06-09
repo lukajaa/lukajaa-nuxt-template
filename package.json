@@ -12,13 +12,17 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.7.0",
     "@types/node": "^18",
+    "eslint": "^8.42.0",
     "nuxt": "^3.5.2",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0"
   },
   "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@nuxtjs/eslint-module": "^4.1.0",
     "@nuxtjs/google-fonts": "^3.0.1",
     "nuxt-gtag": "^0.5.7",
-    "sass": "^1.63.2"
+    "sass": "^1.63.2",
+    "typescript": "^5.1.3"
   }
 }

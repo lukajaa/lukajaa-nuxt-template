@@ -3,23 +3,24 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
     head: {
-      title: 'Lukajaa Nuxt Template',
+      title: 'Lukajaa Nuxt Template'
     }
   },
   css: [
-    '@/assets/styles/main.scss',
+    '@/assets/styles/main.scss'
   ],
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
-    'nuxt-gtag',
+    '@nuxtjs/eslint-module',
+    'nuxt-gtag'
   ],
   googleFonts: {
     families: {
-      'Inter': true,
+      Inter: true
     }
   },
   gtag: {
-    id: 'G-QNLZ5NY7HH',
+    id: 'G-QNLZ5NY7HH'
   }
 })
