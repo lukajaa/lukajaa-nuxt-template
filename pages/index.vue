@@ -4,7 +4,7 @@
       Lukajaa <span class="bg-gradient-to-r from-blue-400 to-blue-700 bg-clip-text text-transparent">Nuxt</span> Template
     </p>
     <p class="text-center text-xl md:text-2xl mt-2 font-medium">
-      Comes with Nuxt.js, TailwindCSS, Google Fonts, and Google Analytics!
+      Comes with Nuxt.js, TailwindCSS, Google Fonts, Google Analytics, ESLint, Icons, and Dark Mode!
     </p>
   </div>
 </template>
