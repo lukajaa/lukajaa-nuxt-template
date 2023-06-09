@@ -13,12 +13,17 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
     '@nuxtjs/eslint-module',
-    'nuxt-gtag'
+    '@nuxtjs/color-mode',
+    'nuxt-gtag',
+    'nuxt-icon'
   ],
   googleFonts: {
     families: {
       Inter: true
     }
+  },
+  colorMode: {
+    classSuffix: ''
   },
   gtag: {
     id: 'G-QNLZ5NY7HH'
