@@ -6,9 +6,7 @@ export default defineNuxtConfig({
       title: 'Lukajaa Nuxt Template'
     }
   },
-  css: [
-    '@/assets/styles/main.scss'
-  ],
+  css: ['@/assets/styles/main.scss'],
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
