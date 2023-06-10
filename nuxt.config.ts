@@ -7,6 +7,9 @@ export default defineNuxtConfig({
     }
   },
   css: ['@/assets/styles/main.scss'],
+  typescript: {
+    strict: true
+  },
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/google-fonts',
