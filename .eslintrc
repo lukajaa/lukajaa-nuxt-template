@@ -9,7 +9,8 @@
   },
   "extends": [
     "@nuxt/eslint-config",
-    "plugin:prettier/recommended"
+    "plugin:prettier/recommended",
+    "plugin:vue/vue3-essential"
   ],
   "rules": {
     "semi": [2, "never"],
@@ -21,6 +22,7 @@
       "singleQuote": true,
       "trailingComma": "none",
       "printWidth": 120
-    }]
+    }],
+    "vue/multi-word-component-names": "off"
   }
 }
