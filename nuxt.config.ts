@@ -10,17 +10,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: true
   },
-  modules: [
-    '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/eslint-module',
-    '@nuxtjs/color-mode',
-    'nuxt-gtag',
-    'nuxt-icon'
-  ],
-  googleFonts: {
-    families: {}
-  },
+  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module', '@nuxtjs/color-mode', 'nuxt-gtag', 'nuxt-icon'],
   colorMode: {
     classSuffix: ''
   },
