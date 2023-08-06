@@ -15,7 +15,6 @@ export default defineNuxtConfig({
     '@nuxtjs/google-fonts',
     '@nuxtjs/eslint-module',
     '@nuxtjs/color-mode',
-    'nuxt-headlessui',
     'nuxt-gtag',
     'nuxt-icon'
   ],
