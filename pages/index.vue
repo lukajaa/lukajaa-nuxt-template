@@ -5,7 +5,7 @@
       <span class="bg-gradient-to-r from-red-500 via-pink-400 to-yellow-500 bg-clip-text text-transparent">Nuxt</span>
       Template
     </p>
-    <p class="mt-4 text-xl font-medium tracking-tighter md:text-3xl">
+    <p class="text-xl font-medium tracking-tighter md:text-3xl">
       App description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
     </p>
   </div>
