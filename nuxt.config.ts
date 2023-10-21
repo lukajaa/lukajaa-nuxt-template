@@ -3,18 +3,24 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   app: {
     head: {
-      title: 'Lukajaa Nuxt Template'
-    }
+      title: 'Lukajaa Nuxt Template',
+    },
   },
   css: ['@/assets/styles/main.scss'],
   typescript: {
-    strict: true
+    strict: true,
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxtjs/eslint-module', '@nuxtjs/color-mode', 'nuxt-gtag', 'nuxt-icon'],
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/color-mode',
+    'nuxt-gtag',
+    'nuxt-icon',
+  ],
   colorMode: {
-    classSuffix: ''
+    classSuffix: '',
   },
   gtag: {
-    id: 'G-QNLZ5NY7HH'
-  }
-})
+    id: 'G-QNLZ5NY7HH',
+  },
+});

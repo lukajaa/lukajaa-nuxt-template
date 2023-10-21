@@ -13,15 +13,15 @@
     "plugin:vue/vue3-essential"
   ],
   "rules": {
-    "semi": [2, "never"],
+    "semi": [2, "always"],
     "quotes": [2, "single"],
     "no-console": "off",
     "vue/max-attributes-per-line": "off",
     "prettier/prettier": ["error", {
-      "semi": false,
+      "semi": true,
       "singleQuote": true,
-      "trailingComma": "none",
-      "printWidth": 120
+      "trailingComma": "all",
+      "printWidth": 80
     }],
     "vue/multi-word-component-names": "off"
   }

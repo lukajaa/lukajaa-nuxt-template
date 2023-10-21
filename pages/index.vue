@@ -1,12 +1,41 @@
 <template>
-  <div class="flex min-h-screen flex-col items-center justify-center p-10 text-center md:px-24">
-    <p class="text-4xl font-bold leading-loose tracking-tight md:text-8xl">
-      Lukajaa
-      <span class="bg-gradient-to-r from-red-500 via-pink-400 to-yellow-500 bg-clip-text text-transparent">Nuxt</span>
-      Template
+  <div class="mx-auto pb-6 pt-12 text-center font-serif lg:w-1/2">
+    <p class="mb-2 text-5xl">Lukaja's Nuxt Template</p>
+    <p class="text-lg">
+      My Nuxt Template used for personal projects. It includes TailwindCSS,
+      Prettier, ESLint, TypeScript, and more.
     </p>
-    <p class="text-xl font-medium tracking-tighter md:text-3xl">
-      App description goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    <p class="mt-10 text-xl">Dependencies</p>
+    <p
+      v-for="(version, dependency) of devDependencies"
+      :key="dependency"
+      class="text-center text-xl"
+    >
+      {{ dependency }}: {{ version.replace('^', '') }}
     </p>
   </div>
 </template>
+
+<script setup lang="ts">
+const devDependencies = {
+  '@nuxt/devtools': '^1.0.0',
+  '@nuxt/eslint-config': '^0.2.0',
+  '@nuxtjs/color-mode': '^3.3.0',
+  '@nuxtjs/eslint-module': '^4.1.0',
+  '@nuxtjs/tailwindcss': '^6.8.0',
+  '@tailwindcss/typography': '^0.5.10',
+  '@types/node': '^20.8.7',
+  '@typescript-eslint/parser': '^6.8.0',
+  eslint: '^8.52.0',
+  'eslint-config-prettier': '^9.0.0',
+  'eslint-loader': '^4.0.2',
+  'eslint-plugin-prettier': '^5.0.1',
+  'eslint-plugin-vue': '^9.14.1',
+  nuxt: '^3.8.0',
+  'nuxt-gtag': '^1.1.1',
+  'nuxt-icon': '^0.5.0',
+  prettier: '^3.0.3',
+  'prettier-plugin-tailwindcss': '^0.5.6',
+  sass: '^1.63.3',
+};
+</script>

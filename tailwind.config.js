@@ -1,5 +1,5 @@
 module.exports = {
   darkMode: 'class',
   theme: {},
-  plugins: []
-}
+  plugins: [require('@tailwindcss/typography')],
+};
