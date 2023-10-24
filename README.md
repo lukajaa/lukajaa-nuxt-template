@@ -1,5 +1,4 @@
 # Lukajaa Nuxt Template
 
-Boilerplate for some of my projects that includes Nuxt, Tailwind, and some Google plugins.
-
-Demo: [https://template.lucaskchang.com](https://template.lucaskchang.com)
+My Nuxt Template used for personal projects. It includes TailwindCSS, Prettier, ESLint, TypeScript, and more.
+Preview: [https://template.lucaskchang.com](https://template.lucaskchang.com)

@@ -1,11 +1,11 @@
 <template>
-  <div class="mx-auto pb-6 pt-12 text-center font-serif lg:w-1/2">
+  <div class="mx-auto pt-10 text-center font-serif lg:w-1/2 px-10">
     <p class="mb-2 text-5xl">Lukaja's Nuxt Template</p>
     <p class="text-lg">
       My Nuxt Template used for personal projects. It includes TailwindCSS,
       Prettier, ESLint, TypeScript, and more.
     </p>
-    <p class="mt-10 text-xl">Dependencies</p>
+    <p class="mt-4 text-xl">Dependencies</p>
     <p
       v-for="(version, dependency) of devDependencies"
       :key="dependency"
@@ -13,11 +13,19 @@
     >
       {{ dependency }}: {{ version.replace('^', '') }}
     </p>
+    <button
+      class="ring-1 ring-black dark:ring-white font-bold py-2 px-4 rounded mt-4 text-md"
+      @click="
+        $colorMode.preference = $colorMode.value === 'light' ? 'dark' : 'light'
+      "
+    >
+      Toggle Dark Mode
+    </button>
   </div>
 </template>
 
 <script setup lang="ts">
-const devDependencies = {
+export const devDependencies = {
   '@nuxt/devtools': '^1.0.0',
   '@nuxt/eslint-config': '^0.2.0',
   '@nuxtjs/color-mode': '^3.3.0',
