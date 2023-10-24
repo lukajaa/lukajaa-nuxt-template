@@ -25,7 +25,7 @@
 </template>
 
 <script setup lang="ts">
-export const devDependencies = {
+const devDependencies = {
   '@nuxt/devtools': '^1.0.0',
   '@nuxt/eslint-config': '^0.2.0',
   '@nuxtjs/color-mode': '^3.3.0',

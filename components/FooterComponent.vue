@@ -6,7 +6,7 @@
         href="https://www.lucaskchang.com/"
         target="_blank"
         class="font-semibold text-blue-400 hover:text-blue-500"
-      >Lucas Chang.</a
+        >Lucas Chang.</a
       >
       Made with
       <a
