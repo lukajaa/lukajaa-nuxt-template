@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto pt-10 text-center font-serif lg:w-1/2 px-10">
+  <div class="mx-auto px-10 pt-10 text-center font-serif lg:w-1/2">
     <p class="mb-2 text-5xl">Lukaja's Nuxt Template</p>
     <p class="text-lg">
       My Nuxt Template used for personal projects. It includes TailwindCSS,
@@ -13,14 +13,13 @@
     >
       {{ dependency }}: {{ version.replace('^', '') }}
     </p>
-    <button
-      class="ring-1 ring-black dark:ring-white font-bold py-2 px-4 rounded mt-4 text-md"
+    <UButton
       @click="
         $colorMode.preference = $colorMode.value === 'light' ? 'dark' : 'light'
       "
     >
       Toggle Dark Mode
-    </button>
+    </UButton>
   </div>
 </template>
 
