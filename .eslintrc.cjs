@@ -25,6 +25,7 @@ module.exports = {
         singleQuote: true,
         trailingComma: 'all',
         printWidth: 80,
+        plugins: ['prettier-plugin-tailwindcss'],
       },
     ],
     'vue/multi-word-component-names': 'off',
