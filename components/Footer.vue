@@ -1,5 +1,6 @@
 <template>
-  <div class="mx-auto p-6 text-center">
+  <div class="mx-auto p-8 text-center">
+    <p>Last Updated - 10/30/23</p>
     <p>
       Created by
       <a
@@ -15,7 +16,7 @@
         target="_blank"
         class="font-semibold text-blue-400 hover:text-blue-500"
       >
-        Nuxt and TailwindCSS
+        Nuxt and TailwindCSS.
       </a>
     </p>
   </div>
