@@ -1,4 +1,5 @@
 # Lukajaa Nuxt Template
 
-My Nuxt Template used for personal projects. It includes TailwindCSS, Prettier, ESLint, TypeScript, and more.
+Nuxt Template used for my personal projects. Includes NuxtUI, ESLint, Prettier, and Google Analytics.
+
 Preview: [https://template.lucaskchang.com](https://template.lucaskchang.com)
