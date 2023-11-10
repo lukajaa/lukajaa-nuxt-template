@@ -10,7 +10,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: true,
   },
-  modules: ['@nuxtjs/eslint-module', '@nuxt/ui', 'nuxt-gtag'],
+  modules: ['@nuxtjs/eslint-module', '@nuxt/ui', '@vueuse/nuxt', 'nuxt-gtag'],
   colorMode: {
     classSuffix: '',
   },
